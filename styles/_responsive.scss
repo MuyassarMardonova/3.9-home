@@ -1,0 +1,83 @@
+@media screen and (max-width:600px) {
+    .head{
+        display: none;
+    }
+
+    .banner{
+        // flex-direction: column;
+        // flex-wrap: wrap;
+     
+        text-align: center;
+
+        img{
+           
+            flex-wrap: wrap;
+            flex: 100%;
+            text-align: center;
+           
+        }
+    
+    }
+
+    .Fresh-food{
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex: 100%;
+        text-align: center;
+    }
+
+    .howitworks{
+        text-align: center;
+        &__cards{
+            flex-direction: column;
+            flex-wrap:wrap ;
+
+            .howitworks__cards-item{
+                flex: 100%;
+            }
+
+        }
+    }
+
+    .browsemenu{
+        text-align: center;
+        &__buttons{
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+    }
+
+    .orderonline{
+        flex-direction: column;
+        flex-wrap: wrap;
+        &__img{
+            flex: 100%;
+        }
+        &__text{
+            flex: 100%;
+        }
+    }
+
+    .call{
+        flex-direction: column;
+        flex-wrap: wrap;
+        &__text{
+            flex: 100%;
+        }
+        &__img{
+            flex: 100%;
+        }
+    }
+
+    .support{
+        flex-direction: column;
+        flex-wrap: wrap;
+        &__img{
+            flex: 100%;
+        }
+        &__cont{
+            flex: 100%;
+        }
+    }
+}
